@@ -1,4 +1,4 @@
-Tinytest.add('example', function (test) {
+Tinytest.add('checkValidNumber', function (test) {
   // passes
   var tests = [
     1,
