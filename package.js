@@ -1,13 +1,13 @@
 Package.describe({
   name: 'danimal:checkvalidnumber',
-  version: '1.0.1',
+  version: '1.1.0',
   summary: "A pattern for Meteor's check package to catch divide by zero errors.",
   git: 'https://github.com/dan335/meteor-checkvalidnumber',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom(['2.16', '3.0']);
   api.use('check');
   api.addFiles('checkvalidnumber.js');
   api.export(['validNumber', 'isValidNumber']);
